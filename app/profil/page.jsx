@@ -44,7 +44,7 @@ export default function ProfilePage() {
                     type="text"
                     id="fullName"
                     
-                    className="w-full px-4 py-2  border border-gray-300 rounded-md "
+                    className="text-black w-full px-4 py-2  border border-gray-300 rounded-md "
                   />
                 </div>
                 <div>
@@ -55,7 +55,7 @@ export default function ProfilePage() {
                     type="text"
                     id="username"
                     
-                    className="w-full px-4 py-2  border border-gray-300 rounded-md"
+                    className="text-black w-full px-4 py-2  border border-gray-300 rounded-md"
                   />
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function ProfilePage() {
                     type="password"
                     id="currentPassword"
                     placeholder="********"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    className="text-black  w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
                   />
                 </div>
                 <div>
@@ -84,7 +84,7 @@ export default function ProfilePage() {
                     type="password"
                     id="newPassword"
                     placeholder="Minimal 8 karakter"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    className="text-black w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
                   />
                 </div>
               </div>
