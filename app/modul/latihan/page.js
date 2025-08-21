@@ -1,6 +1,7 @@
 // app/modul/latihan/page.js
 'use client'; // Client Component karena menggunakan usePathname dari Sidebar
 
+import React from 'react'; // Import React ditambahkan di sini
 import Link from 'next/link';
 import Sidebar from '../../../components/Sidebar'; // Sesuaikan jalur import Sidebar
 
@@ -42,16 +43,16 @@ export default function LatihanPage() {
                     {/* md:grid-cols-2: 2 pasangan per baris (tablet & desktop) */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                         {hurufHijaiyahPairs.map((pair) => (
+                            // Menambahkan key={pair.id} di sini
                             <div key={pair.id} className="flex flex-col items-center">
                                 {/* Kontainer untuk dua kartu berdampingan */}
                                 {/* Border dan rounded-lg diterapkan pada kontainer ini */}
                                 <div className="flex w-full mb-4 rounded-lg overflow-hidden border border-gray-200">
                                     {pair.chars.map((char, index) => (
-                                        <>
+                                        // Membungkus div dan conditional div dalam Fragment React
+                                        <React.Fragment key={index}> {/* key harus diberikan pada Fragment */}
                                             <div
-                                                key={index}
                                                 className={`bg-gray-50 p-4 flex flex-col items-center justify-center min-h-[150px] flex-1`}
-                                                // Menghapus semua kelas border individual dari sini
                                             >
                                                 <p className="text-6xl font-arabic text-teal-800">{char}</p>
                                             </div>
@@ -59,7 +60,7 @@ export default function LatihanPage() {
                                             {index === 0 && pair.chars.length > 1 && (
                                                 <div className="w-px bg-gray-200 h-auto"></div>
                                             )}
-                                        </>
+                                        </React.Fragment>
                                     ))}
                                 </div>
                                 {/* Tombol Mikrofon dan Play di bawah pasangan kartu */}
