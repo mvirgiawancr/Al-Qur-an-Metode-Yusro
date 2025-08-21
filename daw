@@ -1,0 +1,145 @@
+[33mcommit 2c2a9b5df148be21b9177b2d0647201e128b9e1a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 1cb64d3 5365fc6
+Author: Mochamad Rifqy Agustino <93189729+rifqyagustino@users.noreply.github.com>
+Date:   Thu Aug 21 10:39:26 2025 +0700
+
+    Merge pull request #8 from mvirgiawancr/halaman-profil
+    
+    change text color to black
+
+[33mcommit 5365fc6d63aac2c6ae514bbe5bc0ad21b3156ec9[m[33m ([m[1;31morigin/halaman-profil[m[33m, [m[1;32mhalaman-profil[m[33m)[m
+Author: rifqyagustino <rfqgstn@gmail.com>
+Date:   Thu Aug 21 10:37:59 2025 +0700
+
+    change text color to black
+
+[33mcommit 1cb64d336bd81f7900472b0178b90dac434c7ad3[m
+Merge: 43b0f25 c8d0819
+Author: Moch Virgiawan Caesar Ridollohi <109588365+mvirgiawancr@users.noreply.github.com>
+Date:   Thu Aug 21 10:28:47 2025 +0700
+
+    Merge pull request #7 from mvirgiawancr/halaman-modul
+    
+    halaman modul
+
+[33mcommit c8d081965ae0345ec17df2811d3a5d6a7ac41e28[m
+Author: Moch Virgiawan Caesar Ridollohi <virgiawan.muhamad@gmail.com>
+Date:   Thu Aug 21 10:28:13 2025 +0700
+
+    halaman modul
+
+[33mcommit 43b0f25c4f2502e3a0416fe18b7b379607830416[m
+Merge: bbb3191 7817341
+Author: Mochamad Rifqy Agustino <93189729+rifqyagustino@users.noreply.github.com>
+Date:   Thu Aug 21 10:26:34 2025 +0700
+
+    Merge pull request #6 from mvirgiawancr/halaman-profil
+    
+    fix error value
+
+[33mcommit 781734138765ccc79421ee075c8d94f3a864f436[m
+Author: rifqyagustino <rfqgstn@gmail.com>
+Date:   Thu Aug 21 10:24:26 2025 +0700
+
+    fix error value
+
+[33mcommit bbb319147ff2973fda2e7567577002598f085ec9[m
+Merge: 83778b8 b8f2517
+Author: Mochamad Rifqy Agustino <93189729+rifqyagustino@users.noreply.github.com>
+Date:   Thu Aug 21 10:19:29 2025 +0700
+
+    Merge pull request #5 from mvirgiawancr/halaman-profil
+    
+    finish halaman profil
+
+[33mcommit b8f25172278e520cf8ed84530c8bd7c5fd853c8f[m
+Author: rifqyagustino <rfqgstn@gmail.com>
+Date:   Thu Aug 21 10:18:33 2025 +0700
+
+    finish halaman profil
+
+[33mcommit 83778b8ad0229f1df1cdf295899dfcbb2f3f138e[m
+Merge: 8d2a9a8 c6672a8
+Author: Wildan de ciyan <wildandeciyan@gmail.com>
+Date:   Thu Aug 21 10:04:42 2025 +0700
+
+    Merge pull request #4 from mvirgiawancr/update-dashboard
+    
+    Tambah laman dashboard
+
+[33mcommit c6672a8284cb60b3163770988304834f16ce765e[m[33m ([m[1;31morigin/update-dashboard[m[33m)[m
+Author: wildan73 <wildan.10122194@mahasiswa.unikom.ac.id>
+Date:   Thu Aug 21 10:03:48 2025 +0700
+
+    Tambah laman dashboard
+
+[33mcommit 8d2a9a8e5ef1ba9511484712dcab51d3b35a9a8f[m
+Merge: 7a1ef67 b742e4e
+Author: Moch Virgiawan Caesar Ridollohi <109588365+mvirgiawancr@users.noreply.github.com>
+Date:   Thu Aug 21 09:40:16 2025 +0700
+
+    Merge pull request #3 from mvirgiawancr/laman-homepage
+    
+    Update page.js untuk laman homepage
+
+[33mcommit b742e4e0d25689cc4e9beb87c57e9aa43b887c71[m
+Merge: 2cdf61e 7a1ef67
+Author: Moch Virgiawan Caesar Ridollohi <109588365+mvirgiawancr@users.noreply.github.com>
+Date:   Thu Aug 21 09:39:51 2025 +0700
+
+    Merge branch 'main' into laman-homepage
+
+[33mcommit 2cdf61e260a3a8374688ef220c3c3b8e90ed322c[m
+Author: wildan73 <wildan.10122194@mahasiswa.unikom.ac.id>
+Date:   Thu Aug 21 09:37:15 2025 +0700
+
+    Update page.js untuk laman homepage
+
+[33mcommit 7a1ef6793c7e170ceb25df45dd466b74204d5258[m
+Merge: fa2f7a6 dea2b91
+Author: Moch Virgiawan Caesar Ridollohi <109588365+mvirgiawancr@users.noreply.github.com>
+Date:   Thu Aug 21 09:32:51 2025 +0700
+
+    Merge pull request #2 from mvirgiawancr/halaman-register
+    
+    finish halaman register
+
+[33mcommit dea2b913a9da00a2b930a57553fba0b0090dade2[m
+Merge: 99864cd fa2f7a6
+Author: Moch Virgiawan Caesar Ridollohi <virgiawan.muhamad@gmail.com>
+Date:   Thu Aug 21 09:32:29 2025 +0700
+
+    merge
+
+[33mcommit 99864cdb38e53a2ac20f68023ba36a6517f7e4f1[m[33m ([m[1;31morigin/halaman-register[m[33m)[m
+Author: rifqyagustino <rfqgstn@gmail.com>
+Date:   Thu Aug 21 09:20:50 2025 +0700
+
+    finish halaman register
+
+[33mcommit fa2f7a64b9946807ba42b84838f855874b6a7c9d[m
+Merge: 87d3dcc 7764ece
+Author: Moch Virgiawan Caesar Ridollohi <109588365+mvirgiawancr@users.noreply.github.com>
+Date:   Thu Aug 21 09:20:04 2025 +0700
+
+    Menambahkan halaman login
+    
+    Halaman login
+
+[33mcommit 7764ece4b2888b18d94ae9d884ff52016c3bc6bf[m
+Author: Moch Virgiawan Caesar Ridollohi <virgiawan.muhamad@gmail.com>
+Date:   Thu Aug 21 09:18:49 2025 +0700
+
+    finish halaman login
+
+[33mcommit d09336e81a3e1d6f376dbc17fb635128856aa5bb[m[33m ([m[1;31morigin/halaman-login[m[33m)[m
+Author: Moch Virgiawan Caesar Ridollohi <virgiawan.muhamad@gmail.com>
+Date:   Thu Aug 21 09:03:23 2025 +0700
+
+    tambah halaman login
+
+[33mcommit 87d3dcc0f254f86f917ca6a9b30f87f1bd94062f[m
+Author: Moch Virgiawan Caesar Ridollohi <virgiawan.muhamad@gmail.com>
+Date:   Thu Aug 21 08:24:55 2025 +0700
+
+    Initial commit from Create Next App
