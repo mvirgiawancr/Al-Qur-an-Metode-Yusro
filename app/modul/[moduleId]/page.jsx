@@ -165,7 +165,9 @@ const NavigationButtons = () => {
         Sebelumnya
       </button>
       <button className="cursor-pointer bg-emerald-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-emerald-700 transition-colors flex items-center gap-2">
+        <Link href="latihan">
         Lanjut ke Latihan ›
+        </Link>
       </button>
     </div>
   );
