@@ -67,8 +67,10 @@ const LoginPage = () => {
             </div>
 
             {/* Tombol Submit */}
-            <div>
-              <Button label="Masuk" />
+            <div >
+              <Link href="/dashboard">
+                <Button label="Masuk" />
+              </Link>
             </div>
           </form>
 
