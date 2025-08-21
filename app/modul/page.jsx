@@ -7,7 +7,7 @@ import Sidebar from "../../components/Sidebar";
 // Main App Component
 export default function App() {
   return (
-    <div className="bg-gray-100 font-sans antialiased">
+    <div className="bg-gray-100 antialiased">
       <div className="flex min-h-screen">
         {/* Sidebar Component */}
         <Sidebar />
