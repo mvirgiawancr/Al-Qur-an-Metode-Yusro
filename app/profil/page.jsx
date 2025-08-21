@@ -43,7 +43,6 @@ export default function ProfilePage() {
                   <input
                     type="text"
                     id="fullName"
-                    value=""
                     
                     className="w-full px-4 py-2  border border-gray-300 rounded-md "
                   />
@@ -55,7 +54,6 @@ export default function ProfilePage() {
                   <input
                     type="text"
                     id="username"
-                    value=""
                     
                     className="w-full px-4 py-2  border border-gray-300 rounded-md"
                   />
