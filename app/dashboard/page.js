@@ -76,7 +76,7 @@ export default function DashboardPage() {
                         <div className="bg-white rounded-lg p-6 shadow-md">
                             <h2 className="text-2xl font-bold mb-4 text-gray-900">Tantangan Harian</h2>
                             <p className="text-gray-700 mb-4">Selesaikan latihan cepat untuk menguji pemahamanmu hari ini!</p>
-                            <button className="bg-teal-600 text-white font-bold py-2 px-4 rounded-full w-full hover:bg-teal-600 transition">
+                            <button className="bg-teal-600 text-white font-bold py-2 px-4 rounded-full w-full hover:bg-teal-700 transition">
                                 Mulai Latihan Cepat
                             </button>
                         </div>
