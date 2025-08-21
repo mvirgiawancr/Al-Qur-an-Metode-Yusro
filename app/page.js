@@ -1,5 +1,3 @@
-// app/page.js
-
 import Header from '../components/Header';
 import Image from 'next/image';
 
