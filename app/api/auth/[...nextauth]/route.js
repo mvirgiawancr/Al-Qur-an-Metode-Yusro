@@ -3,7 +3,8 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import mysql from "mysql2/promise";
 import bcrypt from "bcrypt";
 
-export const authOptions = {
+// HAPUS 'export' dari baris ini
+const authOptions = {
   providers: [
     CredentialsProvider({
       name: "Credentials",
@@ -38,14 +39,13 @@ export const authOptions = {
             );
 
             if (isValid) {
-              // Mengembalikan object user yang lebih sederhana
               return { id: user.id, name: user.nama, email: user.email };
             }
           }
-          return null; // Gagal otentikasi
+          return null;
         } catch (error) {
           console.error("Authorize Error:", error);
-          return null; // Gagal karena error server
+          return null;
         } finally {
           if (connection) {
             await connection.end();
@@ -54,7 +54,6 @@ export const authOptions = {
       },
     }),
   ],
-  // Menambahkan konfigurasi penting di bawah ini
   secret: process.env.NEXTAUTH_SECRET,
   session: {
     strategy: "jwt",
