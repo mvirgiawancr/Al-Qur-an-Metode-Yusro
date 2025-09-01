@@ -56,12 +56,12 @@ export default function DashboardPage() {
               <div className="w-10 h-10 bg-teal-800 text-white flex items-center justify-center rounded-full font-bold">
                 {session.user.name?.[0]}
               </div>
-              <button
-                onClick={() => signOut({ callbackUrl: "/login" })}
+              {/* <button
+                
                 className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition"
               >
                 Keluar
-              </button>
+              </button> */}
             </div>
           </header>
           {/* Konten Utama (2 Kolom) */}
