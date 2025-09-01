@@ -24,19 +24,19 @@ const LoginPage = () => {
 
           {/* Form Login */}
           <form className="space-y-6">
-            {/* Input Username */}
+            {/* Input Email */}
             <div>
               <label
-                htmlFor="username"
+                htmlFor="email"
                 className="text-sm font-medium text-gray-700"
               >
-                Username
+                Email
               </label>
               <input
-                id="username"
-                name="username"
+                id="email"
+                name="email"
                 type="text"
-                placeholder="Masukkan username Anda"
+                placeholder="Masukkan email Anda"
                 className="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 text-black"
               />
             </div>
@@ -48,7 +48,7 @@ const LoginPage = () => {
                   htmlFor="password"
                   className="text-sm font-medium text-gray-700"
                 >
-                  Kata Sandi
+                  Password
                 </label>
                 <a
                   href="#"
@@ -61,13 +61,13 @@ const LoginPage = () => {
                 id="password"
                 name="password"
                 type="password"
-                placeholder="Masukkan kata sandi Anda"
+                placeholder="Masukkan password Anda"
                 className="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 text-black"
               />
             </div>
 
             {/* Tombol Submit */}
-            <div >
+            <div>
               <Link href="/dashboard">
                 <Button label="Masuk" />
               </Link>
