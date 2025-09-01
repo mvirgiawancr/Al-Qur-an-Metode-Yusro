@@ -1,5 +1,5 @@
 // app/modul/page.js
-'use client';
+"use client";
 
 import React, { useState, useRef, useEffect } from "react";
 import { ChevronLeft, Play } from "lucide-react";
@@ -39,8 +39,6 @@ export default function ModulPage({ params = { slug: "1" } }) {
     </div>
   );
 }
-
-
 
 const MainContent = () => {
   const letterData = [
@@ -87,8 +85,6 @@ const MainContent = () => {
   );
 };
 
-
-
 // Progress Bar Component
 const ProgressBar = ({ current, total }) => {
   const progressPercentage = total > 0 ? (current / total) * 100 : 0;
@@ -111,8 +107,6 @@ const ProgressBar = ({ current, total }) => {
     </div>
   );
 };
-
-
 
 // Letter Card Component (Updated with audio logic)
 const LetterCard = ({ letter, active = false, audioSrc, onPlay }) => {
@@ -151,8 +145,6 @@ const LetterCard = ({ letter, active = false, audioSrc, onPlay }) => {
   );
 };
 
-
-
 // Navigation Buttons Component
 const NavigationButtons = () => {
   return (
@@ -165,9 +157,7 @@ const NavigationButtons = () => {
         Sebelumnya
       </button>
       <button className="cursor-pointer bg-emerald-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-emerald-700 transition-colors flex items-center gap-2">
-        <Link href="latihan">
-        Lanjut ke Latihan ›
-        </Link>
+        <Link href="./latihan">Lanjut ke Latihan ›</Link>
       </button>
     </div>
   );
